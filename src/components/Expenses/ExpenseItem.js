@@ -8,14 +8,7 @@ const ExpenseItem = (props) => {
     let expenseAmount = props.amount;
 
     const clickHandler = () => {
-        document.querySelector('#root div h2').style.cssText = 
-            `display: block;
-            border: solid red 2px;
-            margin: auto;
-            margin-top: 35px;
-            width: fit-content;
-            padding: 10px
-            ` 
+        document.querySelector('#root div h2').style.cssText = `border: solid red 2px;` 
         ;
     }
     
